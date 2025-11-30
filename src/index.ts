@@ -75,6 +75,7 @@ class NotebookLMMCPServer {
           resourceTemplates: {},
           prompts: {}, // Required for completion/complete support in some clients
           logging: {},
+          completions: {}, // Required for completion/complete support
         },
       }
     );
